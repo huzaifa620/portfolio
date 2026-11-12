@@ -242,7 +242,24 @@
   }
 
   /* ---------- sticky card offsets ---------- */
-  $$('.card').forEach((c, i) => c.style.setProperty('--i', i));
+  // full-screen project panels: each pins (tall ones only after their bottom is reached)
+  // and recedes while the next panel slides over it
+  const cards = $$('.card');
+  const pinCards = () => cards.forEach((c) => { c.style.top = Math.min(0, innerHeight - c.offsetHeight) + 'px'; });
+  let coverTick = false;
+  const coverCards = () => {
+    coverTick = false;
+    cards.forEach((c, i) => {
+      const next = cards[i + 1];
+      let v = 0;
+      if (next) v = Math.min(1, Math.max(0, 1 - next.getBoundingClientRect().top / innerHeight));
+      c.style.setProperty('--cover', v.toFixed(3));
+    });
+  };
+  pinCards(); coverCards();
+  addEventListener('resize', () => { pinCards(); coverCards(); });
+  addEventListener('load', pinCards);
+  addEventListener('scroll', () => { if (!coverTick) { coverTick = true; requestAnimationFrame(coverCards); } }, { passive: true });
 
   /* ---------- phone carousels ---------- */
   const DUR = 3600;
