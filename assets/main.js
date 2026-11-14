@@ -139,7 +139,7 @@
     ['WASH42', 'ANDROID', 'LIVE', 'https://play.google.com/store/apps/details?id=com.wash42.app'],
     ['WASH42', 'WEB', 'LIVE', 'https://brave-smoke-0e0c01010.6.azurestaticapps.net'],
     ['HQ CRM', 'IOS', 'LIVE', 'https://apps.apple.com/us/app/headquarters-crm/id6819401164'],
-    ['HQ CRM', 'ANDROID', 'IN REVIEW', ''],
+    ['HQ CRM', 'ANDROID', 'LIVE', 'https://play.google.com/store/apps/details?id=com.headquarterscrm.app'],
     ['DUGAN', 'ANDROID', 'LIVE', 'https://play.google.com/store/apps/details?id=com.duganpsychiatry.app'],
     ['DUGAN', 'IOS', 'IN REVIEW', ''],
     ['HANI', 'IOS', 'LIVE', 'https://apps.apple.com/us/app/hani-by-rehani/id6830137760'],
