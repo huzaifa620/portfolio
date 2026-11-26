@@ -144,7 +144,7 @@
     ['DUGAN', 'IOS', 'IN REVIEW', ''],
     ['HANI', 'IOS', 'LIVE', 'https://apps.apple.com/us/app/hani-by-rehani/id6830137760'],
     ['HANI', 'ANDROID', 'LIVE', 'https://play.google.com/store/apps/details?id=com.rehanisoko.hani'],
-    ['PROPERTKT', 'ANDROID', 'BUILDING', 'https://www.propertkt.com'],
+    ['PROPERTKT', 'IOS', 'LIVE', 'https://apps.apple.com/app/propertkt/id6837506452'],
   ];
   const NAMES = { 'WASH42': 'Wash42', 'HQ CRM': 'HeadQuarters CRM', 'DUGAN': 'Dugan Psychiatry', 'HANI': 'Hani by Rehani', 'PROPERTKT': 'ProperTkt' };
   const CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ';
@@ -353,7 +353,7 @@
       'Wash42: apps, PWA, admin and releases built by me; API and cloud with a team.',
       'Hani: app, API, AI and store releases built solo; web and cloud shared.',
       'Dugan Psychiatry: core features with a team, plus the first Google Play release.',
-      'ProperTkt: six layers built solo, store release on the way.',
+      'ProperTkt: six of seven layers built solo; live on the App Store.',
     ];
     const note = $('.matrix-note');
     const base = note ? note.textContent : '';
