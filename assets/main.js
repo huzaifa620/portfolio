@@ -145,6 +145,7 @@
     ['HANI', 'IOS', 'LIVE', 'https://apps.apple.com/us/app/hani-by-rehani/id6830137760'],
     ['HANI', 'ANDROID', 'LIVE', 'https://play.google.com/store/apps/details?id=com.rehanisoko.hani'],
     ['PROPERTKT', 'IOS', 'LIVE', 'https://apps.apple.com/app/propertkt/id6837506452'],
+    ['PROPERTKT', 'ANDROID', 'IN REVIEW', ''],
   ];
   const NAMES = { 'WASH42': 'Wash42', 'HQ CRM': 'HeadQuarters CRM', 'DUGAN': 'Dugan Psychiatry', 'HANI': 'Hani by Rehani', 'PROPERTKT': 'ProperTkt' };
   const CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ';
